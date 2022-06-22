@@ -1,43 +1,88 @@
 <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 10rem;">
   <div class="text-center">
-  <div><img src="assets/Frame_37_5.png" width="100px"height="100px"></div>
-<div class="logo"><span>Aravindh</span></div>
-<div style="font-size: 15px;margin-top: -10px; margin-bottom: 10px;"><span>Full Stack Developer</span></div>
-</div>
+    <div><img src="assets/Frame_37_5.png" width="100px" height="100px"></div>
+    <div class="logo"><span>Aravindh</span></div>
+    <div style="font-size: 15px;margin-top: -10px; margin-bottom: 10px;"><span>Full Stack Developer</span></div>
+  </div>
   <ul class="nav nav-pills flex-column mb-auto">
     <li class="nav-item">
       <a href="#" class="nav-link active" aria-current="page">
-        <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
+        <svg class="bi pe-none me-2" width="16" height="16">
+          <use xlink:href="#speedometer2"></use>
+        </svg>
         About
       </a>
     </li>
     <li>
       <a href="#" class="nav-link text-white">
-        <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
+        <svg class="bi pe-none me-2" width="16" height="16">
+          <use xlink:href="#speedometer2"></use>
+        </svg>
         My Skills
       </a>
     </li>
     <li>
       <a href="#" class="nav-link text-white">
-        <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
+        <svg class="bi pe-none me-2" width="16" height="16">
+          <use xlink:href="#table"></use>
+        </svg>
         Projects
       </a>
     </li>
     <li>
       <a href="#" class="nav-link text-white">
-        <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
+        <svg class="bi pe-none me-2" width="16" height="16">
+          <use xlink:href="#grid"></use>
+        </svg>
         Achivements
       </a>
     </li>
-    <li>
-      <a href="#" class="nav-link text-white">
-        <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+    <li routerLink="/contact" routerLinkActive="active">
+      <a href="#" class="nav-link text-white" >
+        <svg class="bi pe-none me-2" width="16" height="16">
+          <use xlink:href="#people-circle"></use>
+        </svg>
         Contacts
       </a>
     </li>
   </ul>
-  <div><ul class="social">
-    <li><i class="	fab fa-linkedin-in"></i></li>
-    <li><i class="	fab fa-github"></i></li>
-  </ul></div>
+  <div>
+    <ul class="social">
+      <li><i class="	fab fa-linkedin-in"></i></li>
+      <li><i class="	fab fa-github"></i></li>
+    </ul>
+  </div>
 </div>
+<div class="intro">
+  <h1 class="c2">
+    <span class="text-wrapper">
+      <span class="letters">ABOUT ME</span>
+    </span>
+  </h1>
+  <div class="card">
+    <div class="card-header"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 64 64" class="iconify" data-icon="emojione:red-circle" data-inline="false"
+        style="transform: rotate(360deg);">
+        <circle cx="32" cy="32" r="30" fill="#ed4c5c"></circle>
+      </svg> &nbsp; <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 36 36" class="iconify" data-icon="twemoji:yellow-circle" data-inline="false"
+        style="transform: rotate(360deg);">
+        <circle cx="18" cy="18" r="18" fill="#FDCB58"></circle>
+      </svg> &nbsp; <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 36 36" class="iconify" data-icon="twemoji:green-circle" data-inline="false"
+        style="transform: rotate(360deg);">
+        <circle cx="18" cy="18" r="18" fill="#78B159"></circle>
+      </svg></div>
+    <div class="card-body font-trebuchet text-justify ml-3 mr-3"
+      style="height: auto; font-size: 132%; line-height: 200%;"><br><span class="wave">Hi :) </span><br>👋 I'm
+      Aravindh Ramasamy and I am currently working as Software Developer at Cognizant. I completed my degree in Bachelor of Technology in Computer Science and Engineering from Sri Shakthi Institute of Engineering and Technology. I am much interested in developing new things which excite me a lot. :)
+      <br>
+      I love exploring new technologies and being a practitioner, I like to stay on top of latest trends. I try to leave every line of code I write more readable, accessible, and modular. If you like this portfolio template,
+      make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜</div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
